@@ -1,0 +1,702 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>RedirectHandler | @microsoft/microsoft-graph-client</title>
+	<meta name="description" content="Documentation for @microsoft/microsoft-graph-client">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@microsoft/microsoft-graph-client</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">@microsoft/microsoft-graph-client</a>
+				</li>
+				<li>
+					<a href="redirecthandler.html">RedirectHandler</a>
+				</li>
+			</ul>
+			<h1>Class RedirectHandler</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<dl class="tsd-comment-tags">
+						<dt>implements</dt>
+						<dd><p>Middleware
+							Class representing RedirectHandler</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">RedirectHandler</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/middleware.html" class="tsd-signature-type" data-tsd-kind="Interface">Middleware</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="redirecthandler.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#nextmiddleware" class="tsd-kind-icon">next<wbr>Middleware</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="redirecthandler.html#authorization_header" class="tsd-kind-icon">AUTHORIZATION_<wbr>HEADER</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="redirecthandler.html#location_header" class="tsd-kind-icon">LOCATION_<wbr>HEADER</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="redirecthandler.html#manual_redirect" class="tsd-kind-icon">MANUAL_<wbr>REDIRECT</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="redirecthandler.html#redirect_status_codes" class="tsd-kind-icon">REDIRECT_<wbr>STATUS_<wbr>CODES</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="redirecthandler.html#status_code_see_other" class="tsd-kind-icon">STATUS_<wbr>CODE_<wbr>SEE_<wbr>OTHER</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="redirecthandler.html#execute" class="tsd-kind-icon">execute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#executewithredirect" class="tsd-kind-icon">execute<wbr>With<wbr>Redirect</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#getlocationheader" class="tsd-kind-icon">get<wbr>Location<wbr>Header</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#getoptions" class="tsd-kind-icon">get<wbr>Options</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#haslocationheader" class="tsd-kind-icon">has<wbr>Location<wbr>Header</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#isredirect" class="tsd-kind-icon">is<wbr>Redirect</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#isrelativeurl" class="tsd-kind-icon">is<wbr>RelativeURL</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="redirecthandler.html#setnext" class="tsd-kind-icon">set<wbr>Next</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#shoulddropauthorizationheader" class="tsd-kind-icon">should<wbr>Drop<wbr>Authorization<wbr>Header</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="redirecthandler.html#updaterequesturl" class="tsd-kind-icon">update<wbr>Request<wbr>Url</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Redirect<wbr>Handler<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="redirecthandleroptions.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandlerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="redirecthandler.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandler</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L78">src/middleware/RedirectHandler.ts:78</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="redirecthandleroptions.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandlerOptions</a><span class="tsd-signature-symbol"> = ...</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="redirecthandler.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandler</a></h4>
+							<p>An instance of RedirectHandler</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="nextmiddleware" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> next<wbr>Middleware</h3>
+					<div class="tsd-signature tsd-kind-icon">next<wbr>Middleware<span class="tsd-signature-symbol">:</span> <a href="../interfaces/middleware.html" class="tsd-signature-type" data-tsd-kind="Interface">Middleware</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L78">src/middleware/RedirectHandler.ts:78</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="options" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> options</h3>
+					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="redirecthandleroptions.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandlerOptions</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L72">src/middleware/RedirectHandler.ts:72</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="authorization_header" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> AUTHORIZATION_<wbr>HEADER</h3>
+					<div class="tsd-signature tsd-kind-icon">AUTHORIZATION_<wbr>HEADER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;Authorization&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L59">src/middleware/RedirectHandler.ts:59</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>static</dt>
+							<dd><p>A member representing the authorization header name</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="location_header" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> LOCATION_<wbr>HEADER</h3>
+					<div class="tsd-signature tsd-kind-icon">LOCATION_<wbr>HEADER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;Location&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L52">src/middleware/RedirectHandler.ts:52</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>static</dt>
+							<dd><p>A member holding the name of the location header</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="manual_redirect" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> MANUAL_<wbr>REDIRECT</h3>
+					<div class="tsd-signature tsd-kind-icon">MANUAL_<wbr>REDIRECT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RequestRedirect</span><span class="tsd-signature-symbol"> = &quot;manual&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L66">src/middleware/RedirectHandler.ts:66</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>static</dt>
+							<dd><p>A member holding the manual redirect value</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="redirect_status_codes" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> REDIRECT_<wbr>STATUS_<wbr>CODES</h3>
+					<div class="tsd-signature tsd-kind-icon">REDIRECT_<wbr>STATUS_<wbr>CODES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L32">src/middleware/RedirectHandler.ts:32</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>static</dt>
+							<dd><p>A member holding the array of redirect status codes</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="status_code_see_other" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> STATUS_<wbr>CODE_<wbr>SEE_<wbr>OTHER</h3>
+					<div class="tsd-signature tsd-kind-icon">STATUS_<wbr>CODE_<wbr>SEE_<wbr>OTHER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 303</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L45">src/middleware/RedirectHandler.ts:45</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>static</dt>
+							<dd><p>A member holding SeeOther status code</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="execute" class="tsd-anchor"></a>
+					<h3>execute</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">execute<span class="tsd-signature-symbol">(</span>context<span class="tsd-signature-symbol">: </span><a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of Middleware.execute</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L220">src/middleware/RedirectHandler.ts:220</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>async</dt>
+									<dd><p>To execute the current middleware</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>context: <a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The context object of the request</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A Promise that resolves to nothing</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="executewithredirect" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> execute<wbr>With<wbr>Redirect</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>With<wbr>Redirect<span class="tsd-signature-symbol">(</span>context<span class="tsd-signature-symbol">: </span><a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a>, redirectCount<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, options<span class="tsd-signature-symbol">: </span><a href="redirecthandleroptions.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandlerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L192">src/middleware/RedirectHandler.ts:192</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>async</dt>
+									<dd><p>To execute the next middleware and to handle in case of redirect response returned by the server</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>context: <a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The context object</p>
+									</div>
+								</li>
+								<li>
+									<h5>redirectCount: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The redirect count value</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <a href="redirecthandleroptions.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandlerOptions</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The redirect handler options instance</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>A promise that resolves to nothing</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="getlocationheader" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Location<wbr>Header</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Location<wbr>Header<span class="tsd-signature-symbol">(</span>response<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L118">src/middleware/RedirectHandler.ts:118</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>response: <span class="tsd-signature-type">Response</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The response object</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+							<p>A redirect url from location header</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="getoptions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Options</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Options<span class="tsd-signature-symbol">(</span>context<span class="tsd-signature-symbol">: </span><a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="redirecthandleroptions.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandlerOptions</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L172">src/middleware/RedirectHandler.ts:172</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>context: <a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The context object</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="redirecthandleroptions.html" class="tsd-signature-type" data-tsd-kind="Class">RedirectHandlerOptions</a></h4>
+							<p>A options for middleware execution</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="haslocationheader" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> has<wbr>Location<wbr>Header</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">has<wbr>Location<wbr>Header<span class="tsd-signature-symbol">(</span>response<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L108">src/middleware/RedirectHandler.ts:108</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>response: <span class="tsd-signature-type">Response</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The response object</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>A boolean representing the whether the response has location header or not</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="isredirect" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> is<wbr>Redirect</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Redirect<span class="tsd-signature-symbol">(</span>response<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Response</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L98">src/middleware/RedirectHandler.ts:98</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>response: <span class="tsd-signature-type">Response</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The response object</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>A boolean representing whether the response contains the redirect status code or not</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="isrelativeurl" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> is<wbr>RelativeURL</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>RelativeURL<span class="tsd-signature-symbol">(</span>url<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L128">src/middleware/RedirectHandler.ts:128</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>url: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The url string value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>A boolean representing whether the given url is a relative url or not</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="setnext" class="tsd-anchor"></a>
+					<h3>set<wbr>Next</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Next<span class="tsd-signature-symbol">(</span>next<span class="tsd-signature-symbol">: </span><a href="../interfaces/middleware.html" class="tsd-signature-type" data-tsd-kind="Interface">Middleware</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of Middleware.setNext</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L234">src/middleware/RedirectHandler.ts:234</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>next: <a href="../interfaces/middleware.html" class="tsd-signature-type" data-tsd-kind="Interface">Middleware</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The middleware instance</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<p>Nothing</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="shoulddropauthorizationheader" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> should<wbr>Drop<wbr>Authorization<wbr>Header</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">should<wbr>Drop<wbr>Authorization<wbr>Header<span class="tsd-signature-symbol">(</span>requestUrl<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, redirectUrl<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L139">src/middleware/RedirectHandler.ts:139</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>requestUrl: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The request url value</p>
+									</div>
+								</li>
+								<li>
+									<h5>redirectUrl: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The redirect url value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>A boolean representing whether the authorization header in the request should be dropped for consequent redirected requests</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="updaterequesturl" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> update<wbr>Request<wbr>Url</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Request<wbr>Url<span class="tsd-signature-symbol">(</span>redirectUrl<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, context<span class="tsd-signature-symbol">: </span><a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/microsoftgraph/msgraph-sdk-javascript/blob/176d74a2/src/middleware/RedirectHandler.ts#L162">src/middleware/RedirectHandler.ts:162</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>async</dt>
+									<dd><p>To update a request url with the redirect url</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>redirectUrl: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The redirect url value</p>
+									</div>
+								</li>
+								<li>
+									<h5>context: <a href="../interfaces/context.html" class="tsd-signature-type" data-tsd-kind="Interface">Context</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The context object value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Nothing</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="redirecthandler.html" class="tsd-kind-icon">Redirect<wbr>Handler</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="redirecthandler.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#nextmiddleware" class="tsd-kind-icon">next<wbr>Middleware</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#options" class="tsd-kind-icon">options</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="redirecthandler.html#authorization_header" class="tsd-kind-icon">AUTHORIZATION_<wbr>HEADER</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="redirecthandler.html#location_header" class="tsd-kind-icon">LOCATION_<wbr>HEADER</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="redirecthandler.html#manual_redirect" class="tsd-kind-icon">MANUAL_<wbr>REDIRECT</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="redirecthandler.html#redirect_status_codes" class="tsd-kind-icon">REDIRECT_<wbr>STATUS_<wbr>CODES</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="redirecthandler.html#status_code_see_other" class="tsd-kind-icon">STATUS_<wbr>CODE_<wbr>SEE_<wbr>OTHER</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="redirecthandler.html#execute" class="tsd-kind-icon">execute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#executewithredirect" class="tsd-kind-icon">execute<wbr>With<wbr>Redirect</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#getlocationheader" class="tsd-kind-icon">get<wbr>Location<wbr>Header</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#getoptions" class="tsd-kind-icon">get<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#haslocationheader" class="tsd-kind-icon">has<wbr>Location<wbr>Header</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#isredirect" class="tsd-kind-icon">is<wbr>Redirect</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#isrelativeurl" class="tsd-kind-icon">is<wbr>RelativeURL</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="redirecthandler.html#setnext" class="tsd-kind-icon">set<wbr>Next</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#shoulddropauthorizationheader" class="tsd-kind-icon">should<wbr>Drop<wbr>Authorization<wbr>Header</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="redirecthandler.html#updaterequesturl" class="tsd-kind-icon">update<wbr>Request<wbr>Url</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
